@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+target/
+
+# Build artifacts
+dist/
+build/
+*.jar
+*.war
+*.tsbuildinfo
+.vite/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Local MySQL and runtime databases
+mysql_data/
+mysql_exora_data/
+*.db
+*.sqlite
+
+# IDE configuration
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
